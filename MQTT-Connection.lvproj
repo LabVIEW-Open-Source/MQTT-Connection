@@ -13,8 +13,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MQTT Base.lvlib" Type="Library" URL="../MQTT_Base/MQTT Base.lvlib"/>
-		<Item Name="MQTT_Connection.lvlib" Type="Library" URL="../MQTT_Connection/MQTT_Connection.lvlib"/>
+		<Item Name="MQTT Base.lvlib" Type="Library" URL="../source/MQTT_Base/MQTT Base.lvlib"/>
+		<Item Name="MQTT_Connection.lvlib" Type="Library" URL="../source/MQTT_Connection/MQTT_Connection.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="MQTT_Control_Packets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets.lvlib"/>
