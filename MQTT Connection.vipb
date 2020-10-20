@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-19 11:50:09" Creator="normandinf" Comments="" ID="1c851186a2e33b6e8f4f233dcd6c0137">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-19 18:21:37" Creator="normandinf" Comments="" ID="8fc5ce82a6a9ad83b2e7a6f9d9ed8178">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>3.1.1.7</Library_Version>
+    <Library_Version>3.1.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -53,6 +53,7 @@ These classes can be used as the basis for client and server by providing a clea
       <URL>https://github.com/LabVIEW-Open-Source/MQTT-Connection</URL>
       <Release_Notes>Initial Release of MQTT Connection and MQTT Base to remove client and broker code from this library. This will provide a more lightweight code base for those developers keen on creating their own client and brokers built on smaller parts.
 This library abstracts the connection class which will be used to provide a dependency injectable abstraction for the client and server architecture. The abstract connection ties into the base class through the use of a session.
+
 </Release_Notes>
     </Description>
     <Destinations>
@@ -362,7 +363,7 @@ This library abstracts the connection class which will be used to provide a depe
         <Path>source\MQTT_Connection\Connection\ListenForConnection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7257185492C05D4A91448DDC14A42DD1</GUID>
+      <GUID>09E7A5E859F62B75A0889A38CB1B7BAD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -581,7 +582,7 @@ This library abstracts the connection class which will be used to provide a depe
         <Path>source\MQTT_Base\Base Class\Decode Publish Package (Raw).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7445397E754D057D536FB5397E5ADAC7</GUID>
+      <GUID>65FD3D46EB7ABFA29A0CBAA3487CB61F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
