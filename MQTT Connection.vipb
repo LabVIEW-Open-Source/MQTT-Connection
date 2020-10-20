@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-19 18:21:37" Creator="normandinf" Comments="" ID="8fc5ce82a6a9ad83b2e7a6f9d9ed8178">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-20 10:33:34" Creator="normandinf" Comments="" ID="ac81825d38f49c44d4acb57b75ded181">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>3.1.1.11</Library_Version>
+    <Library_Version>3.1.1.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -363,7 +363,7 @@ This library abstracts the connection class which will be used to provide a depe
         <Path>source\MQTT_Connection\Connection\ListenForConnection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09E7A5E859F62B75A0889A38CB1B7BAD</GUID>
+      <GUID>E071A6D491544CD021276A7C36575AD2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -582,7 +582,7 @@ This library abstracts the connection class which will be used to provide a depe
         <Path>source\MQTT_Base\Base Class\Decode Publish Package (Raw).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65FD3D46EB7ABFA29A0CBAA3487CB61F</GUID>
+      <GUID>99C63DDB15D3638630E954CE062DA58E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
