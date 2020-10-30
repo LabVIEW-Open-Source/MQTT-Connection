@@ -6,6 +6,4 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="MQTT_Base.lvclass" Type="LVClass" URL="../Base Class/MQTT_Base.lvclass"/>
 	<Item Name="Session.lvclass" Type="LVClass" URL="../Session/Session.lvclass"/>
-	<Item Name="Subscription.lvclass" Type="LVClass" URL="../Subscription/Subscription.lvclass"/>
-	<Item Name="TopicFilter.lvclass" Type="LVClass" URL="../TopicFilter/TopicFilter.lvclass"/>
 </Library>
