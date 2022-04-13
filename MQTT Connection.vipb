@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-30 19:02:55" Creator="normandinf" Comments="" ID="54a2c37dbecde289d320f51ba90939c6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-04-13 07:36:37" Creator="normandinf" Comments="" ID="a0878265406fa9c4dbb2242eea756c2c">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>3.1.3.22</Library_Version>
+    <Library_Version>3.1.4.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,10 +17,12 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.1.0.12</External_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_control_packets &gt;= 3.1.2.8</External_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_serializer-1.1.0.12</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_control_packets-3.1.2.8</Direct_Dependencies>
+      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.5.0.15</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.2.1.16</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_mqtt_control_packets &gt;= 3.1.3.9</External_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.5.0.15</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_serializer-1.2.1.16</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_mqtt_control_packets-3.1.3.9</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>Pre-Build Custom Action.vi</Pre-Build_VI>
@@ -48,8 +50,8 @@ These classes can be used as the basis for client and server by providing a clea
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/MQTT-Connection</URL>
-      <Release_Notes>- Subscription and TopicFilter classes have been moved to Server library
-[MQTT-6.0.0-1] Added error 55031 for Protocol Violation of type "Text Frame received over Websockets"</Release_Notes>
+      <Release_Notes>[Fix: 4] setConnected now executes even with upstream error
+[Fix: 6] session process will not hang if some loops terminate.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -203,6 +205,7 @@ These classes can be used as the basis for client and server by providing a clea
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -386,7 +389,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Connection\Connection\isConnected.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D87E64420DB5E36D491EE78F819998CF</GUID>
+      <GUID>F15E33A7F3B8519ECBF28CC8301F8FAC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -619,7 +622,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Base\Base Class\isSessionConnected.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F40E2B07D91BD6FA7FF7738FE6A67679</GUID>
+      <GUID>5A0A979301DD829E8540BDF77ACD8F35</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
