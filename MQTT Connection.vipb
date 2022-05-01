@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-04-30 15:50:37" Creator="normandinf" Comments="" ID="883f99ea2fd34b5e7a032432285dd6bf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-04-30 18:12:55" Creator="normandinf" Comments="" ID="8981b08e16915ae0644a4834f5033594">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>4.0.0.25</Library_Version>
+    <Library_Version>4.0.0.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -429,7 +429,7 @@ I'm reving up the major version to indicate that all the MQTT stack should follo
         <Path>source\MQTT_Base\Base Class\isSessionConnected.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>232789B90504E6004F32B21EA7733AE1</GUID>
+      <GUID>40BC10AA3BD0C9094E1BAF5D9D4974BC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
