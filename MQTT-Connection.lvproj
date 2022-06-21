@@ -15,6 +15,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MQTT Base.lvlib" Type="Library" URL="../source/MQTT_Base/MQTT Base.lvlib"/>
 		<Item Name="MQTT_Connection.lvlib" Type="Library" URL="../source/MQTT_Connection/MQTT_Connection.lvlib"/>
+		<Item Name="Test Launcher DebugTerminal.vi" Type="VI" URL="../source/MQTT_Base/DebuggingTerminal/Test Launcher DebugTerminal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>

@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="DebuggingTerminal.lvclass" Type="LVClass" URL="../DebuggingTerminal/DebuggingTerminal.lvclass"/>
 	<Item Name="MQTT_Base.lvclass" Type="LVClass" URL="../Base Class/MQTT_Base.lvclass"/>
 	<Item Name="Session.lvclass" Type="LVClass" URL="../Session/Session.lvclass"/>
 </Library>
