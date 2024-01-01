@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-04-30 18:12:55" Creator="normandinf" Comments="" ID="8981b08e16915ae0644a4834f5033594">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-06-20 19:25:47" Creator="normandinf" Comments="" ID="3b1ebd5aabd217c56a5a755ff1fd232f">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>4.0.0.26</Library_Version>
+    <Library_Version>4.1.0.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -51,10 +51,7 @@ These classes can be used as the basis for client and server by providing a clea
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/MQTT-Connection</URL>
-      <Release_Notes>MQTT Connection class now inherits from the common Connection base class, which merges the other libraries' dependencies into a common non-MQTT-related stack.
-
-This is a breaking change to MQTT Stack 3.x, although a simple relink to class would suffice.
-I'm reving up the major version to indicate that all the MQTT stack should follow to version 4.x</Release_Notes>
+      <Release_Notes>Adding a DebugTerminal class to the MQTT Base library.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -429,7 +426,7 @@ I'm reving up the major version to indicate that all the MQTT stack should follo
         <Path>source\MQTT_Base\Base Class\isSessionConnected.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40BC10AA3BD0C9094E1BAF5D9D4974BC</GUID>
+      <GUID>0C6177E90EF6661D48374F999ECBA08D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
