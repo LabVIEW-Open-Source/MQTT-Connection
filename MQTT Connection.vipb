@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-01 20:07:08" Creator="normandinf" Comments="" ID="fee50bf97c26b6928f26b18659089318">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-05 08:53:14" Creator="normandinf" Comments="" ID="4de2af7de8e868865dce09c107030045">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>4.1.1.27</Library_Version>
+    <Library_Version>4.1.1.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -53,7 +53,8 @@ These classes can be used as the basis for client and server by providing a clea
       <Copyright/>
       <Packager>Francois Normandin</Packager>
       <URL>https://github.com/LabVIEW-Open-Source/MQTT-Connection</URL>
-      <Release_Notes>Adding a DebugTerminal class to the MQTT Base library.</Release_Notes>
+      <Release_Notes>[Fix: 8] Handling for PINGREQ that does not have ID but requires Ack-type PINGRESP
+[Feature] Adding a DebugTerminal class to the MQTT Base library.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -442,7 +443,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Base\DebuggingTerminal</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02BB91988738848FB039A2088C16B182</GUID>
+      <GUID>BF648B4B8EA23C08450547B01C350580</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -547,7 +548,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Base\DebuggingTerminal\Destroy DebugTerminal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F00A8C8901F7855CD99EB81427252A9</GUID>
+      <GUID>0087D53BFF6BC63151647B5C3B496327</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
