@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-05 08:53:14" Creator="normandinf" Comments="" ID="4de2af7de8e868865dce09c107030045">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-06 11:55:32" Creator="normandinf" Comments="" ID="d4fe9b1632f0180ce094a582ba39ff72">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>4.1.1.28</Library_Version>
+    <Library_Version>4.1.2.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -443,7 +443,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Base\DebuggingTerminal</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BF648B4B8EA23C08450547B01C350580</GUID>
+      <GUID>51B39D341A34CCB04736C4DC73A05A91</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -548,7 +548,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Base\DebuggingTerminal\Destroy DebugTerminal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0087D53BFF6BC63151647B5C3B496327</GUID>
+      <GUID>25B627E4E8390434DB36E353AF5B85A3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
