@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-06 11:55:32" Creator="normandinf" Comments="" ID="d4fe9b1632f0180ce094a582ba39ff72">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2024-01-14 12:14:27" Creator="normandinf" Comments="" ID="d36475dbad715e65d7d6f90df5d530fd">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Connection</Package_File_Name>
-    <Library_Version>4.1.2.28</Library_Version>
+    <Library_Version>4.1.2.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -22,11 +22,13 @@
       <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.2.1.16</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_connection &gt;= 1.1.0.10</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_mqtt_control_packets &gt;= 3.2.0.13</External_Dependencies>
+      <External_Dependencies>lvos_lib_adv_struct &gt;= 1.0.0.1</External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.6.0.16</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.2.0.6</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_serializer-1.2.1.16</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_project_lib_connection-1.1.0.10</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_project_lib_mqtt_control_packets-3.2.0.13</Direct_Dependencies>
+      <Direct_Dependencies>lvos_lib_adv_struct-1.0.0.1</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>Pre-Build Custom Action.vi</Pre-Build_VI>
@@ -443,7 +445,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Base\DebuggingTerminal</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51B39D341A34CCB04736C4DC73A05A91</GUID>
+      <GUID>5536EE936B5D3F6540E34710F9F4E76E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -548,7 +550,7 @@ These classes can be used as the basis for client and server by providing a clea
         <Path>source\MQTT_Base\DebuggingTerminal\Destroy DebugTerminal.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25B627E4E8390434DB36E353AF5B85A3</GUID>
+      <GUID>EAECC19DD10B1A083F90CD33ABB2DA20</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
