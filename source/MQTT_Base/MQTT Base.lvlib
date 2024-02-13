@@ -4,7 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Injectable processes" Type="Folder">
+		<Item Name="Process.vi" Type="VI" URL="../DebuggingTerminal/Process.vi"/>
+		<Item Name="Process_All_single.vi" Type="VI" URL="../DebuggingTerminal/Process_All_single.vi"/>
+		<Item Name="Process_IncomingOnly.vi" Type="VI" URL="../DebuggingTerminal/Process_IncomingOnly.vi"/>
+		<Item Name="Process_OutgoingOnly.vi" Type="VI" URL="../DebuggingTerminal/Process_OutgoingOnly.vi"/>
+	</Item>
 	<Item Name="DebuggingTerminal.lvclass" Type="LVClass" URL="../DebuggingTerminal/DebuggingTerminal.lvclass"/>
+	<Item Name="PacketFormatter.lvclass" Type="LVClass" URL="../PacketFormatter/PacketFormatter.lvclass"/>
 	<Item Name="MQTT_Base.lvclass" Type="LVClass" URL="../Base Class/MQTT_Base.lvclass"/>
 	<Item Name="Session.lvclass" Type="LVClass" URL="../Session/Session.lvclass"/>
 </Library>
